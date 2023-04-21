@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
+
+body{
+    background-color:#B5FBFD ;   
+        width: 100%;
+    height: 200%;
+    font-family: 'Vast Shadow';
+    color: #ad4fd3;
+
+    
+}
+
+#quote-box{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    color: white;
+    border-color: black;
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    height: 40%;
+    margin: 25vh auto auto auto;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 10px 10px 10px;
+}
+
+#text{
+    display: block;
+    padding: auto;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: 30px;
+    text-align: center;
+}
+
+#author{
+    color: blueviolet;
+    text-align: right;
+    font-size: 20px;
+    margin: 2vh auto auto auto;
+}
+
+
+#new-quote{
+    display: flex;
+    flex-flow: row;
+    margin: 5vh auto 5vh auto;
+    padding: 10px 15px 10px 15px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#tweet-quote{
+    margin: 5px 5px 25px 15px;
+    padding: 5px 5px 5px 5px;
+    width: 5vw;
+    height: 6vh;
+    font-size: 25px;
+}
+#insta{
+    margin: 5px 5px 25px 15px;
+    padding: 5px 5px 5px 5px;
+    width: 5vw;
+    height: 6vh;
+    font-size: 25px;
+}
+#linked{
+    margin: 5px 5px 25px 15px;
+    padding: 5px 5px 5px 5px;
+    width: 5vw;
+    height: 6vh;
+    font-size: 25px;
+}
+#head{
+    size: 50px;
+}
+
+#ani{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
